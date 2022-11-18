@@ -1,0 +1,10 @@
+name: why
+channels:
+- conda-forge
+dependencies:
+- python==3.10
+- pandas
+- dowhy==0.8
+- jupyterlab
+- matplotlib
+- tqdm
