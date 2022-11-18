@@ -1,5 +1,7 @@
 # Why did the distribution change?
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tiagofrepereira2012/why_did_the_distribution_change/blob/main/closed_form_simulation.ipynb#scrollTo=b1371ea7-9cea-473d-b132-a8170b8c1a3c)
+
 
 In this notebook I'll try to understand this paper: http://proceedings.mlr.press/v130/budhathoki21a/budhathoki21a.pdf
 
