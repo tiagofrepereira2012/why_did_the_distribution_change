@@ -42,7 +42,7 @@ Those models, are used to sample from the distribution to compute the shapley.
 
 The attribution corresponds to the computation of the Shapley values.
 Shapley has its particular algorithm that I'll not not explain here. In short, you try to evaluated the importance of each feature, by adding them one by one during the classification. The order matters, so, they run the shappley algorithm several times, permutating the features.
-For every permutation, $\sum\limits_{j=1}^n \phi_j(\mathbb{E})=\mathbb{E}_{X_k \sim \tilde{P_{X_k}}}[X_k] - \mathbb{E}_{X_k \sim P_{X_k}}[X_k]$ is evaluated. $X_k$ is sampled from $\Phi$. If the permutation contains the variable $k$, $Phi$ is taken the new distribution, if not, $Phi$ is taken from the current one.
+For every permutation, $\sum\limits_{j=1}^n \phi_j(\mathbb{E})=\mathbb{E}_{X_k \sim \tilde{P_{X_k}}}[X_k] - \mathbb{E}_{X_k \sim P_{X_k}}[X_k]$ is evaluated. $X_k$ is sampled from $\Phi$. If the permutation contains the variable $k$, $\Phi$ is taken the new distribution, if not, $\Phi$ is taken from the current one.
 
 This algorithm is executed several times and the average shapley is provided as output.
 
